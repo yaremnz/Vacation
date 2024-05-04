@@ -1,0 +1,86 @@
+
+
+body {
+    font-size: 100%;
+    background-image: url("../images/cozycabin.jpg");
+
+}
+calculation {
+    border: 1px solid rgb(255, 0, 0);
+    width: 49vw;
+    padding: 1rem;
+    margin: auto;
+    border-radius: 1rem;
+    position: absolute;
+    left: 1vw;
+    top: 9vh;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+
+
+legend {
+    float: none;
+    width: auto;
+    padding: initial;
+    margin-bottom: initial;
+    font-size: 1.5vh;
+    line-height: inherit;
+}
+
+input {
+    margin-left: 1rem
+}
+
+label {
+    display: block;
+}
+
+input[type="number"],
+input[type="text"],
+input[type="date"],
+input[type="email"] {
+    display: block;
+}
+input[type="radio"],
+input[type="chekbox"]{
+    margin-right: 0.25rem;
+}
+
+#output,
+button {
+    width: 25%;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    margin-top: 0.5rem;
+}
+
+#output {
+    border: 1px solid black;
+    position: absolute;
+    left: 51vw;
+    top: 9vh;
+    background-color: white;
+    width: 48vw;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+    justify-content: space-around;
+}
+
+nav a {
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    color: goldenrod;
+    text-decoration: none;
+}
